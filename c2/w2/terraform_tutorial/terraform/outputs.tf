@@ -1,9 +1,7 @@
-
-# output
 output "server_id" {
-  value = aws_instance.webserver.id
-
+  value = module.website.server_id
 }
+
 output "server_arn" {
-  value = aws_instance.webserver.arn
+  value = module.website.server_arn
 }

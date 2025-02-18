@@ -1,1 +1,1 @@
-server_name = "ExampleServer"
+server_name_root = "ExampleServer"
